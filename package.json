@@ -1,0 +1,25 @@
+{
+  "name": "test-static-server",
+  "version": "1.0.0",
+  "description": "Express static server, ejs, ajax",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "devstart": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyLadySnezhka/static-shablon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyLadySnezhka/static-shablon/issues"
+  },
+  "homepage": "https://github.com/MyLadySnezhka/static-shablon#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
